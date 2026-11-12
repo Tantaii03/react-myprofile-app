@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700;800&family=Poppins:wght@400;500;600&display=swap');
+
+/* Tailwind v4 */
+@import "tailwindcss";
+
+/* Tailwind v3: ลบบรรทัด @import "tailwindcss" แล้วใช้ 3 บรรทัดนี้แทน
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+
+:root {
+  --bg: #1c1c1c;
+  --line: #3a3a3a;
+  --orange: #ff5a00;
+  --gray: #7a7a7a;
+}
+
+html, body, #root { min-height: 100%; }
+
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+}
